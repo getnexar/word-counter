@@ -18,7 +18,7 @@ import java.util.List;
 public class EngadgetAddresses {
 
   public static List<String> load() throws IOException {
-    URL file = new URL("https://s3-us-west-2.amazonaws.com/nx-dana/inter-test/endg-urls");
+    URL file = new URL("https://nx-public.s3-eu-west-1.amazonaws.com/Interview/endg-urls");
     ReadableByteChannel rbc = Channels.newChannel(file.openStream());
 
     // download words
