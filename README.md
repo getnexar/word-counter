@@ -31,6 +31,6 @@ Gotchas
 
 Code Structure
 ==============
-* Main.java - the entry point for the program, and the class you should be running. Main already initializes the input params (vocabulary and urls). If you are not able to run Main `main(String[] args)` on the IDE, make sure to mark the `src` directory as a Sources Root. 
+* Main.java - the entry point for the program, and the class you should be running. Main already initializes the input params (vocabulary and urls). If you are not able to run `main(String[] args)` on the IDE, make sure to mark the `src` directory as a Sources Root. 
 
 * EnDictionary.java / EngadgetAddresses.java - classes responsible for loading the vocabulary and the urls list. These are help classes which you can probably disregard.
